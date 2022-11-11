@@ -1,0 +1,31 @@
+RUN	com.gatling.tests.api.PostPutDeleteAPIDemo	postputdeleteapidemo	1667197207745	DEMO 7	3.6.1
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197209219
+USER	Create User	START	1667197209208
+USER	Update User	START	1667197209209
+REQUEST		Update user	1667197209243	1667197209830	KO	status.find.is(200), but actually found 404
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197210194
+USER	Create User	START	1667197210194
+USER	Update User	START	1667197210194
+REQUEST		Update user	1667197210195	1667197210774	KO	status.find.is(200), but actually found 404
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197211197
+USER	Create User	START	1667197211197
+USER	Update User	START	1667197211197
+USER	Create User	END	1667197211231
+REQUEST		Update user	1667197211198	1667197211753	KO	status.find.is(200), but actually found 404
+USER	Update User	END	1667197211915
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197212213
+USER	Create User	START	1667197212213
+USER	Create User	END	1667197212211
+USER	Update User	START	1667197212216
+REQUEST		Update user	1667197212217	1667197212768	KO	status.find.is(200), but actually found 404
+USER	Update User	END	1667197212790
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197213194
+USER	Create User	START	1667197213194
+USER	Update User	START	1667197213194
+USER	Create User	END	1667197213209
+REQUEST		Update user	1667197213194	1667197213762	KO	status.find.is(200), but actually found 404
+USER	Update User	END	1667197213772
+USER	Create User	END	1667197214222
+USER	Update User	END	1667197214785
+USER	Create User	END	1667197215203
+USER	Update User	END	1667197215770

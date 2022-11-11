@@ -1,0 +1,46 @@
+RUN	com.gatling.tests.api.PostPutDeleteAPIDemo	postputdeleteapidemo	1667197519137	DEMO7	3.6.1
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197520447
+USER	Create User	START	1667197520441
+USER	Update User	START	1667197520444
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197520933
+USER	Create User	START	1667197520933
+REQUEST		Update user	1667197520470	1667197521055	KO	jsonPath($.name).find.is(S.S.Nilan), but actually found Nilan
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197521435
+USER	Create User	START	1667197521434
+USER	Update User	START	1667197521434
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197521941
+USER	Create User	START	1667197521941
+REQUEST		Update user	1667197521435	1667197521970	KO	jsonPath($.name).find.is(S.S.Nilan), but actually found Nilan
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197522442
+USER	Create User	START	1667197522442
+USER	Update User	START	1667197522442
+USER	Create User	END	1667197522459
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197522929
+USER	Create User	START	1667197522929
+USER	Create User	END	1667197522945
+REQUEST		Update user	1667197522443	1667197523059	KO	jsonPath($.name).find.is(S.S.Nilan), but actually found Nilan
+USER	Update User	END	1667197523135
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197523428
+USER	Create User	START	1667197523428
+USER	Update User	START	1667197523428
+USER	Create User	END	1667197523443
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197523926
+USER	Create User	START	1667197523926
+USER	Create User	END	1667197523958
+REQUEST		Update user	1667197523429	1667197523969	KO	jsonPath($.name).find.is(S.S.Nilan), but actually found Nilan
+USER	Update User	END	1667197523976
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197524429
+USER	Create User	START	1667197524429
+USER	Update User	START	1667197524429
+USER	Create User	END	1667197524444
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197524928
+USER	Create User	START	1667197524928
+USER	Create User	END	1667197524944
+REQUEST		Update user	1667197524430	1667197524988	KO	jsonPath($.name).find.is(S.S.Nilan), but actually found Nilan
+USER	Update User	END	1667197525071
+USER	Create User	END	1667197525443
+USER	Create User	END	1667197525928
+USER	Update User	END	1667197525975
+USER	Create User	END	1667197526443
+USER	Create User	END	1667197526931
+USER	Update User	END	1667197526994

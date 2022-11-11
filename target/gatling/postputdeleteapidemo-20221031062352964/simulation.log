@@ -1,0 +1,31 @@
+RUN	com.gatling.tests.api.PostPutDeleteAPIDemo	postputdeleteapidemo	1667197432964	DEMO7	3.6.1
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197434347
+USER	Create User	START	1667197434336
+USER	Update User	START	1667197434338
+REQUEST		Update user	1667197434371	1667197434977	KO	jsonPath($.name).find.is(S.S.Nilan), but actually found Nilan
+USER	Update User	START	1667197435320
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197435336
+USER	Create User	START	1667197435336
+REQUEST		Update user	1667197435321	1667197435884	KO	jsonPath($.name).find.is(S.S.Nilan), but actually found Nilan
+USER	Update User	START	1667197436320
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197436336
+USER	Create User	START	1667197436336
+USER	Create User	END	1667197436370
+REQUEST		Update user	1667197436321	1667197436865	KO	jsonPath($.name).find.is(S.S.Nilan), but actually found Nilan
+USER	Update User	END	1667197437103
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197437323
+USER	Create User	START	1667197437322
+USER	Update User	START	1667197437322
+USER	Create User	END	1667197437338
+REQUEST		Update user	1667197437323	1667197437886	KO	jsonPath($.name).find.is(S.S.Nilan), but actually found Nilan
+USER	Update User	END	1667197437901
+ERROR	Create User request: Failed to build request: No baseUrl defined but provided url is relative : /users 	1667197438324
+USER	Create User	START	1667197438323
+USER	Update User	START	1667197438323
+USER	Create User	END	1667197438338
+USER	Update User	END	1667197438868
+REQUEST		Update user	1667197438324	1667197438961	KO	jsonPath($.name).find.is(S.S.Nilan), but actually found Nilan
+USER	Create User	END	1667197439338
+USER	Update User	END	1667197439900
+USER	Create User	END	1667197440339
+USER	Update User	END	1667197440966

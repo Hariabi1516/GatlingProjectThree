@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.SearchAndEditAcer",
+  "simulationId": "searchandeditacer",
+  "start": 1664786613859,
+  "description": "Test Run 3",
+  "scenarios": ["Users", "Admin"],
+  "assertions": [
+
+  ]
+}
